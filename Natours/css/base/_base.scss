@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* 
+    this defines what 1 rem is 
+    Default font size of browser is 16px
+    But we don't want 16px, we want 10 px, so our font size will be (10/16)*100 = 62.5
+    To convert to percentage, we need to multiply by 100
+  */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
