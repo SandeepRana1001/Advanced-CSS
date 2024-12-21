@@ -54,7 +54,7 @@
 }
 
 .btn-text {
-  @include transition;
+  @include transition_3;
   &:link,
   &:visited {
     font-size: $default-font-size;
