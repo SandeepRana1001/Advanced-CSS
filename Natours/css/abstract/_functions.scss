@@ -1,0 +1,3 @@
+@function transition($duration: 0.3s) {
+  @return all #{$duration} ease-in-out;
+}
