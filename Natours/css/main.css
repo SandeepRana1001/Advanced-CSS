@@ -105,7 +105,7 @@ body {
   letter-spacing: 0.2rem;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   transition: all 0.2s ease-in-out;
 }
@@ -274,7 +274,7 @@ body {
   margin-bottom: 0.5rem;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
   -webkit-background-clip: text;
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 .feature-box:hover {
@@ -405,6 +405,35 @@ body {
   font-weight: 100;
 }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg);
+}
+.story__shape {
+  width: 15rem;
+  height: 15rem;
+  float: left;
+  shape-outside: circle(50% at 50% 50%);
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  transform: translateX(-3rem) skewX(12deg);
+}
+.story__image {
+  height: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+.story__text {
+  transform: skewX(12deg);
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -488,4 +517,9 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem;
+}
+
+.section-stories {
+  padding: 15rem 0;
+  background-color: #f7f7f7;
 }/*# sourceMappingURL=main.css.map */
