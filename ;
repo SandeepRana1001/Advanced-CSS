@@ -1,0 +1,52 @@
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33mba3eb9a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{1}: checkout: moving from main to dev
+[33mba3eb9a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{2}: checkout: moving from dev to main
+[33mba3eb9a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{3}: merge main: Fast-forward
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{4}: checkout: moving from main to dev
+[33mba3eb9a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{5}: checkout: moving from dev to main
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{6}: checkout: moving from main to dev
+[33mba3eb9a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{7}: checkout: moving from main to main
+[33mba3eb9a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{8}: commit: Natours - Writing Media Queries for Base, Typography and Layout
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{9}: checkout: moving from dev to main
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{10}: checkout: moving from main to dev
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{11}: checkout: moving from development to main
+[33m89ded3a[m HEAD@{12}: checkout: moving from main to development
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{13}: reset: moving to origin/main
+[33mde0b708[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m HEAD@{14}: commit: Natours - Media Query - Part I
+[33mcc6f1f3[m HEAD@{15}: commit: Natours - Building Popup - PartII
+[33m58731ae[m HEAD@{16}: commit: Natours - Building Popup - Part I
+[33m5586417[m HEAD@{17}: commit: Natours - Building Navigatio
+[33mac89d65[m HEAD@{18}: commit: Natours - Building Footer
+[33mea664cd[m HEAD@{19}: commit: Natours - Booking Section - Part III
+[33m8b93c66[m HEAD@{20}: commit: Natours - Booking Section - Part II
+[33ma2af046[m HEAD@{21}: commit: Natours - Booking Section - Part I
+[33m9a18337[m HEAD@{22}: commit: Natours - Stories Section - Part III
+[33m6ff9bd9[m HEAD@{23}: commit: Natours - Stories Section - Part II
+[33mb88c380[m HEAD@{24}: commit: Natours - Stories Section - Part I
+[33m124ad27[m HEAD@{25}: commit: Tours Section - Part III
+[33m77ae606[m HEAD@{26}: commit: Building the Tours Section - Part 1 and 2
+[33m1ff8481[m HEAD@{27}: commit: Natours - Features Section
+[33m1bbea76[m HEAD@{28}: commit: Natours - About Section - Part III
+[33m6e21504[m HEAD@{29}: commit: Natours - About Section - Part II
+[33mf3d3514[m HEAD@{30}: commit: Natours - About Section - Part I
+[33m89ded3a[m HEAD@{31}: merge development: Fast-forward
+[33mf380e9b[m HEAD@{32}: checkout: moving from development to main
+[33m89ded3a[m HEAD@{33}: reset: moving to Head
+[33m89ded3a[m HEAD@{34}: commit: Natours - Added Fluid Layout using Floats
+[33mf380e9b[m HEAD@{35}: merge main: Fast-forward
+[33m17ff0e2[m HEAD@{36}: checkout: moving from main to development
+[33mf380e9b[m HEAD@{37}: commit: Add SCSS
+[33m25f1d91[m HEAD@{38}: reset: moving to Head
+[33m25f1d91[m HEAD@{39}: commit: Completed Header
+[33m17ff0e2[m HEAD@{40}: checkout: moving from development to main
+[33m17ff0e2[m HEAD@{41}: Branch: renamed refs/heads/development-branch-personal-device to refs/heads/development
+[33m17ff0e2[m HEAD@{43}: checkout: moving from main to development-branch-personal-device
+[33m17ff0e2[m HEAD@{44}: checkout: moving from development-branch-personal-device to main
+[33m17ff0e2[m HEAD@{45}: checkout: moving from main to development-branch-personal-device
+[33m17ff0e2[m HEAD@{46}: checkout: moving from development-branch-personal-device to main
+[33m17ff0e2[m HEAD@{47}: checkout: moving from main to development-branch-personal-device
+[33m17ff0e2[m HEAD@{48}: Branch: renamed refs/heads/development-personal-device to refs/heads/main
+[33m17ff0e2[m HEAD@{50}: Branch: renamed refs/heads/main to refs/heads/development-personal-device
+[33m17ff0e2[m HEAD@{52}: pull: Fast-forward
+[33mf0d7543[m HEAD@{53}: Branch: renamed refs/heads/master to refs/heads/main
+[33mf0d7543[m HEAD@{55}: commit (initial): Natours
