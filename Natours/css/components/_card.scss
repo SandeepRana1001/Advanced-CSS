@@ -182,4 +182,52 @@
     font-size: 6rem;
     font-weight: 100;
   }
+
+  // responsive styling
+  @include respond(tab-port) {
+    height: auto !important;
+    border-radius: 0.3rem;
+    background-color: $color-white;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+
+    &__side {
+      height: auto !important;
+      position: relative !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+
+      &--back {
+        transform: rotateY(0deg);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+      }
+    }
+
+    &:hover &__side--front {
+      // when card is hovered, the side is transformed
+      transform: rotateY(0);
+    }
+
+    &__details {
+      padding: 1rem 3rem;
+    }
+
+    // front side styling
+
+    &__cta {
+      position: relative !important;
+      top: 0;
+      left: 0;
+      transform: translate(0);
+      width: 100%;
+      padding: 7rem 4rem 4rem 4rem;
+    }
+
+    &__price-box {
+      margin-bottom: 3rem;
+    }
+
+    &__price-value {
+      font-size: 4rem;
+    }
+  }
 }
