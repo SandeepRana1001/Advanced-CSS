@@ -52,11 +52,15 @@ body {
 .sidebar {
   background-color: #333;
   flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
   background-color: orangered;
   flex: 1;
+  height: 80rem;
 }
 
 .search {
@@ -151,4 +155,19 @@ body {
   height: 3.75rem;
   border-radius: 50%;
   margin-right: 1rem;
+}
+
+.side-nav__item {
+  list-style: none;
+}
+.side-nav__icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: #ccc;
 }/*# sourceMappingURL=main.css.map */
