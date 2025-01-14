@@ -60,7 +60,26 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  height: 80rem;
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: #faf9f9;
+  border-bottom: 1px solid #faf9f9;
+}
+
+.description {
+  font-size: 1.4rem;
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem rgb(0, 0, 0);
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  background-color: yellowgreen;
+  flex: 1;
 }
 
 .search {
